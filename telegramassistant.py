@@ -26,9 +26,9 @@ import google.auth.transport.grpc
 import google.auth.transport.requests
 import google.oauth2.credentials
 import telegram
-from telegram.error import NetworkError
-from telegram.error import TelegramError
-from telegram.error import Unauthorized
+#from telegram.error import NetworkError
+#from telegram.error import TelegramError
+#from telegram.error import Unauthorized
 from telegram.ext import Filters
 from telegram.ext import MessageHandler
 from telegram.ext import Updater
