@@ -29,9 +29,9 @@ import telegram
 #from telegram.error import NetworkError
 #from telegram.error import TelegramError
 #from telegram.error import Unauthorized
-from telegram.ext import Filters
-from telegram.ext import MessageHandler
-from telegram.ext import Updater
+#from telegram.ext import Filters
+#from telegram.ext import MessageHandler
+#from telegram.ext import Updater
 
 try:
     from . import assistant_helpers
