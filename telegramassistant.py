@@ -43,7 +43,7 @@ ASSISTANT_API_ENDPOINT = 'embeddedassistant.googleapis.com'
 DEFAULT_GRPC_DEADLINE = 60 * 3 + 5
 BOT_TOKEN = os.environ.get('1441720871:AAGGdUVIAMIaB0nkH45Cnj-tSUO9O_9VTiw')
 ALLOWED_CHAT_IDS = list(
-        map(int, os.environ.get('-1001470978862').split(','))
+        map(int, os.environ.get('-1001380038374').split(','))
         )
 AUTHORIZED_USER_IDS = list(
         map(int, os.environ.get('1131653685').split(','))
