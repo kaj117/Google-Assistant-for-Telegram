@@ -41,12 +41,12 @@ except (SystemError, ImportError):
 
 ASSISTANT_API_ENDPOINT = 'embeddedassistant.googleapis.com'
 DEFAULT_GRPC_DEADLINE = 60 * 3 + 5
-BOT_TOKEN = os.environ.get('1273164107:AAH4tsYkztBceq1VMeQ2LfrBqUz47nnK6yg')
+BOT_TOKEN = os.environ.get('1441720871:AAGGdUVIAMIaB0nkH45Cnj-tSUO9O_9VTiw')
 ALLOWED_CHAT_IDS = list(
-        map(int, os.environ.get('-1001380038374').split(','))
+        map(int, os.environ.get('-1001470978862').split(','))
         )
 AUTHORIZED_USER_IDS = list(
-        map(int, os.environ.get('1155642873').split(','))
+        map(int, os.environ.get('1131653685').split(','))
         )
 DEVICE_MODEL_ID = os.environ.get('ASUS_X00TD')
 DEVICE_ID = os.environ.get('J55AAB760J692F26')
